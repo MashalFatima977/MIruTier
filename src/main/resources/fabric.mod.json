@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "mirutier",
+  "version": "${version}",
+  "name": "MiruTier",
+  "description": "Custom client-side Minecraft tier display.",
+  "authors": ["MiruPlayzz_"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.miruplayz.mirutier.MiruTierClient"]
+  },
+  "mixins": ["mirutier.client.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "fabric-api": "*",
+    "java": ">=21"
+  }
+}
